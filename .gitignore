@@ -1,0 +1,22 @@
+# Ambiente virtual
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Cache de dados: pode ser baixado de novo a qualquer momento.
+# Mantemos só o .gitkeep para a pasta existir no repositório.
+data/*
+!data/.gitkeep
+
+# Editores / SO
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
