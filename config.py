@@ -14,4 +14,5 @@ TRADING_DAYS_PER_YEAR: int = 252
 
 ROOT_DIR: Path = Path(__file__).resolve().parent
 DATA_DIR: Path = ROOT_DIR / "data"
-FIGURES_DIR: Path = ROOT_DIR / "reports" / "figures"
+REPORTS_DIR: Path = ROOT_DIR / "reports"
+FIGURES_DIR: Path = REPORTS_DIR / "figures"
